@@ -16,6 +16,8 @@
 .nav-logo-text,
 .nav-logo-text:hover {
   color: #00285F;
+  display: flex;
+  align-items: center;
 }
 
 .main-menu {
