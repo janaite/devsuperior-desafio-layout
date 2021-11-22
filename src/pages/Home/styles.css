@@ -94,18 +94,17 @@
 }
 
 @media (min-width: 1280px) {
-    .home-container {
-        width: 979px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .home-container {
+    width: 979px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .home-card {
     flex-direction: row;
     justify-content: flex-end;
     padding: 83px 78px 83px 85px;
     align-items: center;
-
   }
 
   .home-card-image {
@@ -113,7 +112,7 @@
   }
 
   .home-card-content {
-      margin-right: 20px;
+    margin-right: 20px;
   }
 
   .home-card-content h1 {
