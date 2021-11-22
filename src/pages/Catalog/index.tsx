@@ -14,46 +14,55 @@ const Catalog = () => {
                     <img src={ProductImage} alt="Nome do produto" />
                     <h1>Audi Supra TT</h1>
                     <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+                    <button className="btn btn-primary">Comprar</button>
                 </div>
                 <div className="catalog-card">
                     <img src={ProductImage} alt="Nome do produto" />
                     <h1>Audi Supra TT</h1>
                     <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+                    <button className="btn btn-primary">Comprar</button>
                 </div>
                 <div className="catalog-card">
                     <img src={ProductImage} alt="Nome do produto" />
                     <h1>Audi Supra TT</h1>
                     <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+                    <button className="btn btn-primary">Comprar</button>
                 </div>
                 <div className="catalog-card">
                     <img src={ProductImage} alt="Nome do produto" />
                     <h1>Audi Supra TT</h1>
                     <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+                    <button className="btn btn-primary">Comprar</button>
                 </div>
                 <div className="catalog-card">
                     <img src={ProductImage} alt="Nome do produto" />
                     <h1>Audi Supra TT</h1>
                     <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+                    <button className="btn btn-primary">Comprar</button>
                 </div>
                 <div className="catalog-card">
                     <img src={ProductImage} alt="Nome do produto" />
                     <h1>Audi Supra TT</h1>
                     <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+                    <button className="btn btn-primary">Comprar</button>
                 </div>
                 <div className="catalog-card">
                     <img src={ProductImage} alt="Nome do produto" />
                     <h1>Audi Supra TT</h1>
                     <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+                    <button className="btn btn-primary">Comprar</button>
                 </div>
                 <div className="catalog-card">
                     <img src={ProductImage} alt="Nome do produto" />
                     <h1>Audi Supra TT</h1>
                     <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+                    <button className="btn btn-primary">Comprar</button>
                 </div>
                 <div className="catalog-card">
                     <img src={ProductImage} alt="Nome do produto" />
                     <h1>Audi Supra TT</h1>
                     <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
+                    <button className="btn btn-primary">Comprar</button>
                 </div>
             </div>
         </div>
