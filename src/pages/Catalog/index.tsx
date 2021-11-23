@@ -1,72 +1,37 @@
-import ProductImage from 'assets/images/car-card.png';
+import ProductCard from 'components/ProductCard';
 
 import './styles.css';
 
 const Catalog = () => {
-    return (
-        <div className="catalog-container">
-            <div className="catalog-search-container">
-                Digite sua busca
-                <button className="btn btn-primary">Buscar</button>
+  return (
+    <div className="catalog-container">
+      <div className="catalog-search-container">
+        Digite sua busca
+        <button className="btn btn-primary">Buscar</button>
+      </div>
+      <div className="catalog-card-container">
+        <div className="container my-4">
+          <div className="row">
+            <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
+              <ProductCard />
             </div>
-            <div className="catalog-card-container">
-                <div className="catalog-card">
-                    <img src={ProductImage} alt="Nome do produto" />
-                    <h1>Audi Supra TT</h1>
-                    <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
-                    <button className="btn btn-primary">Comprar</button>
-                </div>
-                <div className="catalog-card">
-                    <img src={ProductImage} alt="Nome do produto" />
-                    <h1>Audi Supra TT</h1>
-                    <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
-                    <button className="btn btn-primary">Comprar</button>
-                </div>
-                <div className="catalog-card">
-                    <img src={ProductImage} alt="Nome do produto" />
-                    <h1>Audi Supra TT</h1>
-                    <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
-                    <button className="btn btn-primary">Comprar</button>
-                </div>
-                <div className="catalog-card">
-                    <img src={ProductImage} alt="Nome do produto" />
-                    <h1>Audi Supra TT</h1>
-                    <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
-                    <button className="btn btn-primary">Comprar</button>
-                </div>
-                <div className="catalog-card">
-                    <img src={ProductImage} alt="Nome do produto" />
-                    <h1>Audi Supra TT</h1>
-                    <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
-                    <button className="btn btn-primary">Comprar</button>
-                </div>
-                <div className="catalog-card">
-                    <img src={ProductImage} alt="Nome do produto" />
-                    <h1>Audi Supra TT</h1>
-                    <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
-                    <button className="btn btn-primary">Comprar</button>
-                </div>
-                <div className="catalog-card">
-                    <img src={ProductImage} alt="Nome do produto" />
-                    <h1>Audi Supra TT</h1>
-                    <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
-                    <button className="btn btn-primary">Comprar</button>
-                </div>
-                <div className="catalog-card">
-                    <img src={ProductImage} alt="Nome do produto" />
-                    <h1>Audi Supra TT</h1>
-                    <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
-                    <button className="btn btn-primary">Comprar</button>
-                </div>
-                <div className="catalog-card">
-                    <img src={ProductImage} alt="Nome do produto" />
-                    <h1>Audi Supra TT</h1>
-                    <p>Lorem ipsum sit amet, consectetur adipisicing elit. Cupiditate, nisi</p>
-                    <button className="btn btn-primary">Comprar</button>
-                </div>
+            <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
+              <ProductCard />
             </div>
+            <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
+              <ProductCard />
+            </div>
+            <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
+              <ProductCard />
+            </div>
+            <div className="col-12 col-sm-6 col-lg-4 col-xl-3">
+              <ProductCard />
+            </div>
+          </div>
         </div>
-    );
-}
+      </div>
+    </div>
+  );
+};
 
 export default Catalog;
