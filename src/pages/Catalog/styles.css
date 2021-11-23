@@ -30,15 +30,11 @@
   background-color: #00285F;
 }
 
-.catalog-card-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
 @media (min-width: 576px) {
   .catalog-search-container {
     height: 123px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .catalog-search-container input {
