@@ -1,15 +1,52 @@
 .catalog-container {
   background-color: white;
+  border: 1px solid white; /* bugfix */
 }
 
 .catalog-search-container {
   background: #ededed;
   border-radius: 10px;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 30px 10px;
+  height: 86px;
+}
+
+.catalog-search-container input {
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  border-style: none;
+  margin-top: 22px;
+  margin-left: 10px;
+  min-width: 200px;
+  max-width: 584px;
+}
+
+.catalog-search-container button {
+  height: 40px;
+  width: 77px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #00285F;
 }
 
 .catalog-card-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 576px) {
+  .catalog-search-container {
+    height: 123px;
+  }
+
+  .catalog-search-container input {
+    margin-top: 42px;
+    margin-left: 20px;
+  }
+
+  .catalog-search-container button {
+    width: 174px;
+  }
 }
