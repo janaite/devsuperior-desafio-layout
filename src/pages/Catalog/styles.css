@@ -17,7 +17,7 @@
   margin-top: 22px;
   margin-left: 10px;
   min-width: 200px;
-  max-width: 584px;
+  width: calc(100% - 300px);
 }
 
 .catalog-search-container button {
@@ -27,14 +27,20 @@
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: #00285F;
+  background-color: #00285f;
+  margin-bottom: 3px;
+  margin-left: 5px;
+}
+
+.catalog-card-container {
+  padding: 10px;
 }
 
 @media (min-width: 576px) {
   .catalog-search-container {
     height: 123px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .catalog-search-container input {
